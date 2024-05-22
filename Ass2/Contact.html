@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Little Butterfly Boutique</title>
+</head>
+<body>
+<header>
+    <h1><a href="Home.html"><img src="Logo.jpeg" style="width: 100px; height: 100px;" alt="Little Butterfly Boutique logo"></a>Little Butterfly Boutique</h1>
+    <nav>
+        <ul>
+            <li><a href="add.php">Add Product</a></li>
+            <li><a href="edit.php">Edit Product</a></li>
+            <li><a href="Delete.php">Delete Product</a></li>
+            <li><a href="View.php">View Product</a></li>
+            <li><a href="Products.php">Products</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article>
+        <figure>
+            <img src="contactus.jpg" style="width: 900px; height: 500px;" alt="contact us">
+            <figcaption>Contant us</figcaption></figure>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Call or email us now to inquire. Fill out the form for any issues or suggestions and we will get back to you as quickly as possible</p>
+            <p><img src="icons8-address-24.png" style="width: 20px; height: 20px;" alt="address">Address: alarsal Street, Ramallah, Palestine</p>
+            <p><img src="download.png" style="width: 20px; height: 20px;" alt="phone">Phone: 0596432687</p>
+            <p><img src="download (1).png" style="width: 20px; height: 20px;" alt="email">Email: info@littlebutterflyboutique.com</p>
+
+            <h2>Contact Form</h2>
+            <form action="http://COMP334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+                <p><label for="sender_name">Name:</label></p>
+                <p><input type="text" id="sender_name" name="sender_name" required></p>
+                <p><label for="sender_email">Email:</label></p>
+                <p><input type="email" id="sender_email" name="sender_email" required></p>
+                <p><label for="sender_location">Location:</label></p>
+                <p><input type="text" id="sender_location" name="sender_location" required></p>
+                <p><label for="message_subject">Subject:</label></p>
+                <p><input type="text" id="message_subject" name="message_subject" required></p>
+                <p><label for="message_body">Message:</label></p>
+                <p><textarea id="message_body" name="message_body" rows="4" cols="50" required></textarea></p>
+                <p><input type="submit" value="Send">
+                    <input type="reset" value="Reset"></p>
+            </form>
+        </section>
+    </article>
+</main>
+<footer>
+    <p>Last updated on: <time datetime="2024-05-17">May 17, 2024</time></p>
+    <p>Address: alarsal Street, Ramallah, Palestine</p>
+    <p>Phone: 0596432687</p>
+    <p>Email: info@littlebetterflyboutique.com</p>
+    <nav>
+        <a href="Contact.html">Contact Us</a>  
+    </nav>
+</footer>
+</body>
+</html>
